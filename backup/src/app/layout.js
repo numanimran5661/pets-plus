@@ -1,4 +1,4 @@
-
+import localFont from "next/font/local";
 import { Be_Vietnam_Pro } from 'next/font/google';
 import "../styles/globals.css";
 

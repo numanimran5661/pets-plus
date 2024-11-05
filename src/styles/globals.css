@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-sans: var(--font-vietnam-pro);
+}
+
+body {
+  font-family: var(--font-sans);
+}
+
+img {
+  object-fit: contain;
+}
+
+.main-logo {
+  max-width: 188px;
+}
+
+/********** Header ***********/
+.custom-button {
+  border-radius: 45px;
+}
+
+/********** Header ***********/
+.sticky-header {
+  transition: padding 0.3s ease-in-out;
+}
+.sticky-header a {
+  
+  font-size: 16px;
+}
+
+/********** Main Section ***********/
+.main-img-container {
+  background: url("/images/png/woman-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.main-container2 {
+  max-width: 1110px;
+  height: 737px;
+}
+.man-img-cont{
+  min-width: 100%;
+  min-height: 100%;
+  max-width: 420px;
+  max-height: 650px;
+  background: url("/images/png/banner-img-2.png");
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.main-woman-img {
+  width: 580px;
+  height: 540px;
+  border-radius: 50px;
+}
+.main-woman-img img {
+  width: 580px;
+  height: 600px;
+}
+.rabbit-img-cont {
+  width: 150px;
+  height: 150px;
+}
+.rabbit-img-cont img {
+  width: 100%;
+  height: 100%;
+}
